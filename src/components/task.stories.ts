@@ -3,7 +3,7 @@ import { Task } from "./task";
 
 type Story = ComponentStoryObj<typeof Task>;
 
-export default { component: Task };
+export default { component: Task, title: "Task" };
 
 export const Default: Story = {
   args: {
