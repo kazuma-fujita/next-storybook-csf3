@@ -20,7 +20,7 @@
     "@storybook/addon-actions": "^6.4.0-rc.2",
     "@storybook/addon-essentials": "^6.4.0-rc.2",
     "@storybook/addon-links": "^6.4.0-rc.2",
-    "@storybook/addon-storyshots": "^6.3.12",
+    "@storybook/addon-storyshots": "^6.4.0-rc.2",
     "@storybook/react": "^6.4.0-rc.2",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.1.2",

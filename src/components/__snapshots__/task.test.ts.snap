@@ -25,7 +25,7 @@ exports[`Storyshots Task Archived 1`] = `
       placeholder="Input title"
       readOnly={true}
       type="text"
-      value="Test Task"
+      value="NG Test Task"
     />
   </div>
   <div
@@ -60,7 +60,7 @@ exports[`Storyshots Task Default 1`] = `
       placeholder="Input title"
       readOnly={true}
       type="text"
-      value="Test Task"
+      value="OK Test Task"
     />
   </div>
   <div
@@ -103,7 +103,7 @@ exports[`Storyshots Task Pinned 1`] = `
       placeholder="Input title"
       readOnly={true}
       type="text"
-      value="Test Task"
+      value="NG Test Task"
     />
   </div>
   <div
