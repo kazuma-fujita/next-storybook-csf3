@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Task Archived 1`] = `
+exports[`Storyshots Task Item Archived 1`] = `
 <div
   className="list-item TASK_ARCHIVED"
 >
@@ -25,7 +25,7 @@ exports[`Storyshots Task Archived 1`] = `
       placeholder="Input title"
       readOnly={true}
       type="text"
-      value="NG Test Task"
+      value="OK Test Task"
     />
   </div>
   <div
@@ -35,7 +35,7 @@ exports[`Storyshots Task Archived 1`] = `
 </div>
 `;
 
-exports[`Storyshots Task Default 1`] = `
+exports[`Storyshots Task Item Default 1`] = `
 <div
   className="list-item TASK_INBOX"
 >
@@ -78,7 +78,7 @@ exports[`Storyshots Task Default 1`] = `
 </div>
 `;
 
-exports[`Storyshots Task Pinned 1`] = `
+exports[`Storyshots Task Item Pinned 1`] = `
 <div
   className="list-item TASK_PINNED"
 >
@@ -103,7 +103,7 @@ exports[`Storyshots Task Pinned 1`] = `
       placeholder="Input title"
       readOnly={true}
       type="text"
-      value="NG Test Task"
+      value="OK Test Task"
     />
   </div>
   <div
