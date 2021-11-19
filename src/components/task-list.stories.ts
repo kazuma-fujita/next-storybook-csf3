@@ -1,7 +1,7 @@
 import type { ComponentStoryObj } from "@storybook/react";
-import { TaskItem, Task } from "./task-item";
-import { TaskList } from "./task-list";
+import { Task } from "./task-item";
 import * as TaskItemStories from "./task-item.stories";
+import { TaskList } from "./task-list";
 
 type Story = ComponentStoryObj<typeof TaskList>;
 
