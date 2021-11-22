@@ -1016,3 +1016,25 @@ a:focus {
   vertical-align: top;
   max-width: 100%;
 }
+
+.wrap {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 300px;
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  padding: 1em;
+  margin: 0.5em;
+}
+
+.error {
+  color: #ff4400;
+  font-size: medium;
+  padding-top: 0.5em;
+}

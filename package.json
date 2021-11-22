@@ -11,9 +11,12 @@
     "test": "jest --watchAll"
   },
   "dependencies": {
+    "@hookform/resolvers": "^2.8.3",
     "next": "12.0.4",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.20.2",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -25,6 +28,7 @@
     "@storybook/testing-react": "^1.0.0-next.1",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
     "@types/node": "16.11.7",
     "@types/react": "17.0.35",
     "babel-jest": "^27.3.1",

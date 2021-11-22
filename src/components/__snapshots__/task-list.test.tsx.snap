@@ -1,5 +1,169 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Sign In Form Default 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="wrap"
+  >
+    <div
+      className="content"
+    >
+      <input
+        name="mailAddress"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="メールアドレス"
+        type="text"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <input
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="パスワード"
+        type="password"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <input
+        type="submit"
+        value="ログイン"
+      />
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Storyshots Sign In Form Empty Error 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="wrap"
+  >
+    <div
+      className="content"
+    >
+      <input
+        name="mailAddress"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="メールアドレス"
+        type="text"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <input
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="パスワード"
+        type="password"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <input
+        type="submit"
+        value="ログイン"
+      />
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Storyshots Sign In Form Filled 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="wrap"
+  >
+    <div
+      className="content"
+    >
+      <input
+        name="mailAddress"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="メールアドレス"
+        type="text"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <input
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="パスワード"
+        type="password"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <input
+        type="submit"
+        value="ログイン"
+      />
+    </div>
+  </div>
+</form>
+`;
+
+exports[`Storyshots Sign In Form Filled Success 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="wrap"
+  >
+    <div
+      className="content"
+    >
+      <input
+        name="mailAddress"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="メールアドレス"
+        type="text"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <input
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        placeholder="パスワード"
+        type="password"
+      />
+    </div>
+    <div
+      className="content"
+    >
+      <input
+        type="submit"
+        value="ログイン"
+      />
+    </div>
+  </div>
+</form>
+`;
+
 exports[`Storyshots Task Item Archived 1`] = `
 <div
   className="list-item TASK_ARCHIVED"
