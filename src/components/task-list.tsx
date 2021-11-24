@@ -1,13 +1,7 @@
 import React from "react";
-import { TaskItem, Task } from "./task-item";
+import { Task, TaskItem } from "./task-item";
 
-// type Props = {
-//   loading: boolean;
-//   tasks: Task[];
-//   onPinTask: (id: string) => void;
-//   onArchiveTask: (id: string) => void;
-// };
-export type Props = {
+type Props = {
   loading: boolean;
   tasks: Task[];
   onPinTask: (id: string) => void;

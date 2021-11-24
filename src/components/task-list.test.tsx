@@ -1,13 +1,13 @@
 import initStoryshots from "@storybook/addon-storyshots";
 import { composeStories } from "@storybook/testing-react";
-import * as stories from "./task-list.stories";
-import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
+import { render, screen } from "@testing-library/react";
+import * as stories from "./task-list.stories";
 
 initStoryshots();
 
 describe("TaskList", () => {
-  const { Default, WithPinnedTasks, Loading, Empty } = composeStories(stories);
+  const { WithPinnedTasks } = composeStories(stories);
   test("renders pinned tasks at the start of the list", () => {
     const pinnedTitle = WithPinnedTasks.args!.tasks![5].title; // "Task 6 (pinned)"
     render(<WithPinnedTasks />);

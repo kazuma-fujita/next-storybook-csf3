@@ -12,7 +12,7 @@ initStoryshots();
 
 describe("SignInForm", () => {
   const { EmptyError, FilledSuccess } = composeStories(stories);
-  test("Invalid required", async () => {
+  test("Validate form blank errors", async () => {
     render(<EmptyError />);
     await emptyErrorStory.play();
     const alerts = await screen.findAllByRole("alert");
@@ -21,7 +21,7 @@ describe("SignInForm", () => {
     expect(alerts[1]).toHaveTextContent("パスワードを入力してください");
   });
 
-  test("FilledSuccess", async () => {
+  test("Filled valid input value", async () => {
     render(<FilledSuccess />);
     await filledSuccessStory.play();
     const mailAddressInput: HTMLInputElement = await screen.findByPlaceholderText(
